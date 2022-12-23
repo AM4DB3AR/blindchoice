@@ -19,6 +19,12 @@ h1 {
   text-align: center;
   font-weight: bold;
 }
+.bc {
+  width: 50%;
+  display:block;
+margin-left:auto;
+margin-right:auto;
+}
 .carousel .item {
   height: 700px;
 }
@@ -142,4 +148,9 @@ input[type=checkbox]:checked ~ .menu{
 .dropdown li:hover {
  background-color: black;
 }
+.carousel .item {
+  height:390px;
+         width:700px;
+}
+
 }
