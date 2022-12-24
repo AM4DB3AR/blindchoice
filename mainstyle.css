@@ -35,6 +35,7 @@ h1 {
 margin-left:auto;
 margin-right:auto;
 }
+
 .bc {
   width: 50%;
   display:block;
@@ -174,5 +175,19 @@ input[type=checkbox]:checked ~ .menu{
   height:390px;
          width:700px;
 }
+.ytube {
+  width: 350px;
+  display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+.column {
+  width: auto;
+  float: none;
+  margin-left: 0px;
+}
+
+
 
 }
