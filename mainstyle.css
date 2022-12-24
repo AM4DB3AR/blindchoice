@@ -41,6 +41,7 @@ margin-right:auto;
   display:block;
 margin-left:auto;
 margin-right:auto;
+ height: auto;
 }
 .tour {
   width: 50%;
@@ -172,8 +173,19 @@ input[type=checkbox]:checked ~ .menu{
  background-color: black;
 }
 .carousel .item {
-  height:390px;
-         width:700px;
+  height:490px;
+  width:800px;
+}
+.item img {
+  width: auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+.slhome{
+  width: 350px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 .ytube {
   width: 350px;
@@ -187,7 +199,13 @@ margin-right:auto;
   float: none;
   margin-left: 0px;
 }
-
+.bc {
+  width: 100%;
+  display:block;
+margin-left:auto;
+margin-right:auto;
+ height: auto;
+}
 
 
 }
