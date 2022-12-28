@@ -49,3 +49,14 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#CC4949; }
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+  .contacttext {
+    width: 75%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height: auto;
+  }
+}
