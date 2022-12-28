@@ -26,11 +26,29 @@
    <!--end of Navigation bar-->
 
 <img class="contacttext" src="images\Contact.png" alt="header">
-   <form>
-  <input name="name" type="text" class="feedback-input" placeholder="Name" />
-  <input name="email" type="text" class="feedback-input" placeholder="Email" />
-  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-  <input type="submit" value="SUBMIT"/>
+<form action="contact.php" method="post" name="contactform">
+
+<p><br>
+<input maxlength="50" name="first_name" id="first" size="30" type="text" required placeholder="First Name"  /></p>
+
+<p><br>
+<input maxlength="50" name="last_name"  id="last" size="30" type="text" required  placeholder="Last Name" /></p>
+
+
+<p><br>
+<input maxlength="30" name="telephone" id="phone" size="30" type="text" required  placeholder="Phone" /></p>
+
+
+<p><br>
+<input maxlength="80" name="email" id="emailadr" size="30" type="email"required  placeholder="you@example.com" /></p>
+
+
+<p><br>
+<textarea cols="25" maxlength="1000" id="msg" name="comments" rows="6" required placeholder="Tell us more..." ></textarea></p>
+
+
+<p><input type="submit" value="Send Message" /></p>
+
 </form>
 
    <!--Footer-->
