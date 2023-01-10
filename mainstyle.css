@@ -22,6 +22,7 @@ h1 {
 .column {
   float: left;
   width: 33.33%;
+  padding: 30px;
 }
 
 .slhome{
@@ -34,7 +35,8 @@ h1 {
 .row:after {
   content: "";
   display: table;
-  clear: both;
+  clear: both
+    padding: 30px;
 }
 .ytube {
   display:block;
@@ -56,14 +58,14 @@ margin-left:auto;
 margin-right:auto;
 }
 .carousel .item {
-  height: 700px;
+  height: auto;
 }
 
 .item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 700px;
+  display:block;
+margin-left:auto;
+margin-right:auto;
+    height: auto;
 }
 /* NAVBAR STYLING STARTS */
 .navbar {
