@@ -210,3 +210,30 @@ p {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox]{
+ display: none;
+}
+/*HAMBURGER MENU*/
+.hamburger {
+ display: none;
+ font-size: 24px;
+ user-select: none;
+}
+
+
+.footer {
+  background: crimson;
+  padding: 10px 0;
+}
+.footer a {
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+  transition: all .5s ease;
+}
+
+.footer a:hover {
+  color: black;
+}
