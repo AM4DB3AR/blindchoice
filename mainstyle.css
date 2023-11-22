@@ -24,6 +24,13 @@ h1 {
   width: 33.33%;
   padding: 30px;
 }
+.slm {
+  width: 30%;
+  display:block;
+margin-left:auto;
+margin-right:auto;
+ height: auto;
+}
 
 .slhome{
   width: 750px;
