@@ -146,7 +146,9 @@ input[type=checkbox]{
  user-select: none;
 }
 
-
+.lt {
+  padding: 20px;
+}
 .footer {
   background: crimson;
   padding: 10px 0;
